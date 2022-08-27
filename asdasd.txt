@@ -1,1 +1,65 @@
-asdasd
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Magkahiosa Login</title>
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/awesome/app.css') }}">
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/login.js') }}"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="w-screen flex flex-row">
+        <div class="bg-primary h-screen w-[31.2%] hidden md:flex justify-end">
+            <div class="login-container ml-[78px] bg-secondary flex flex-col pt-[78px] pl-[8px] pr-[8.68px]">
+                <p class=" text-white mt-[14px] text-[24px] tracking-wide font-[50]">Welcome to <span
+                        class="font-semibold">MAGKAHI</span><span class="font-semibold text-[#FFCF2D]">OSA</span></p>
+                <hr class="text-[#BBBACC] my-2 mr-4">
+                <p class="text-white text-[14px] tracking-wide text-thin grow " id="page_1">
+                    The University of Science and Technology of Southern Philippines (USTP) has been handling student
+                    organization processes through the Office of Student Affairs (OSA) for the past few years. Just
+                    recently, in March 2020, all transactions for students have been slowly converted
+                    through online means, which poses a huge gap in terms of communication between the
+                    OSA and the recognized student organizations.<br><br> Although emails and
+                    contact information have been opened to the public for transactions, students are
+                    still facing delays and backlogs in their activities which include approval of
+                    documents, email responses, and the like. With these ongoing situations, the lack of
+                    a centralized platform to organize the transactions and create a much responsive
+                    communication are left unaddressed.
+                </p>
+                <p class="text-white text-[14px] tracking-wide text-thin grow hidden" id="page_2">
+                    In able to address the current problems and challenges in communication between the Office of
+                    Student Affairs (OSA) and the recognized student organizations in the university, the Federation of
+                    Accredited Extracurricular Student Organizations (FAESO) will be developing MagkahiOSA: A
+                    Centralized Platform.<br><br>
+                    Together with its partner organizations, it aims to develop a platform where all transactions online
+                    will be conducted for easy access; in line with the paperless' advocacy of the university. This
+                    project will be introduced to the students of USTP prior to the end of the Academic Year 2021-2022
+                    with high hopes in addressing the problem.
+                </p>
+                <div class="flex flex-row justify-center mb-8 gap-x-2">
+                    <button onclick="page_1(); return false;"
+                        class="w-[16px] focus:w-[20px] h-[16px] focus:h-[20px] rounded-[50%] bg-white border-0 focus:border-2 border-white focus:border-primary"></button>
+                    <button onclick="page_2(); return false;"
+                        class="w-[16px] focus:w-[20px] h-[16px] focus:h-[20px] rounded-[50%] bg-white border-0 focus:border-2 border-white focus:border-primary"></button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#ffffff] h-screen w-[70%] hidden md:flex">
+            <div class="login-container mr-20 bg-white">
+                <form action="" method="get">
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
